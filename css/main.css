@@ -18,7 +18,7 @@ body {
 	display: inline-block;
 	width: 150px;
 	position: relative;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.6);
 	color: white;
 	font: 0.8em "Arial", sans-serif;
 	padding: 5px;
@@ -34,13 +34,13 @@ body {
 .explanation_2 {
 	display: inline-block;
 	width: 790px;
-	height: 130px;
+	height: 125px;
 	position: relative;
-	background: rgb(0, 0, 0);
+	background: rgb(38, 38, 38);
 	color: white;
 	font: 0.8em "Arial", sans-serif;
 	padding: 5px;
-	top: -145px;
+	top: -140px;
 }
 
 .explanation {	
