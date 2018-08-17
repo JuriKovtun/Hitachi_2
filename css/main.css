@@ -15,6 +15,13 @@ body {
 }
 
 .explanation_1 {
+	display: inline-block;
+	width: 150px;
+	position: relative;
+	background: rgba(0, 0, 0, 0.7);
+	color: white;
+	font: 0.8em "Arial", sans-serif;
+	padding: 5px;
 	top: -25px;
 }
 
@@ -25,23 +32,30 @@ body {
 }
 
 .explanation_2 {
-	top: -6px;
-}
-
-.explanation {
 	display: inline-block;
-	width: 150px;
+	width: 790px;
+	height: 130px;
 	position: relative;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgb(0, 0, 0);
 	color: white;
 	font: 0.8em "Arial", sans-serif;
 	padding: 5px;
+	top: -145px;
+}
+
+.explanation {	
 	opacity: 0;	
 }
 
 .popup:hover .explanation {
 	opacity: 1;	
 }
+
+.popup:hover ~ .explanation {
+	opacity: 1;	
+}
+
+
 
 
 
